@@ -1,20 +1,25 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content  class="myview">
+<div class="full-page">
+  <div class="logo">
+    <img class = "logo-img" src="../../assets/logo/log.png.png" alt="">
+    <div class="txt-area">
+      <p class="welcome-note">Welcome to Loyalty APP</p>
+      <p class="txt-note">Please Select Your Profile from Below to get Started</p>
+    </div>
   </div>
+  <div class="button-container">
+    <ion-button  class="first-btn" expand="block" (click)="mobileScreen()">Dealer
+      <ion-icon class="cl" name="people" slot="start"></ion-icon>
+    </ion-button>
+    <ion-button  class="first-btn" expand="block" (click)="mobileScreen()">Sub-Dealer
+      <ion-icon name="people" class="cl" slot="start"></ion-icon>
+    </ion-button>
+    <ion-button  class="first-btn" expand="block" (click)="mobileScreen()">Influencer
+      <ion-icon name="people" class="cl" slot="start" (click)="mobileScreen()"></ion-icon>
+    </ion-button>
+    <ion-button  class="first-btn" expand="block">Sales Representative
+      <ion-icon name="people" class="cl" slot="start" (click)="mobileScreen()"></ion-icon>
+    </ion-button>
+  </div>
+</div>
 </ion-content>

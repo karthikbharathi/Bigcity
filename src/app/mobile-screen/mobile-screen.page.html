@@ -1,0 +1,21 @@
+<ion-content class="myview">
+  <div class="full-page">
+    <div class="logo">
+      <img class = "logo-img" src="../../assets/logo/log.png.png" alt="">
+    </div>
+    <div class="input-xontainer">
+      <ion-item class="txt-area">
+        <ion-label class = "lb-txt" position="floating" *ngIf="!otpEnter">Enter Your Mobile Number</ion-label>
+        <ion-label class = "lb-txt" position="floating" *ngIf="otpEnter">Enter Your OTP</ion-label>
+        <ion-input class="white"></ion-input>
+      </ion-item>
+    </div>
+    <div class="otp-btn" *ngIf="otpEnter">
+      <p> Resend OTP </p>
+    </div>
+    <div class="btn-container">
+      <ion-button mode = "ios" class="first-btn" *ngIf = "submitbtn" (click)="submit()">Submit</ion-button>
+      <ion-button mode = "ios" class="first-btn" *ngIf = "enterBtn" (click)="enterOtp()">Submit</ion-button>
+    </div>
+</div>
+</ion-content>

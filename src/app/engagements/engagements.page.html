@@ -1,0 +1,119 @@
+<ion-content class="myview">
+  <div class="full-page">
+    <div class="header">
+      <fa-icon class="header-txt ft-s" [icon]="faArrowLeft"></fa-icon>
+      <p class="header-txt mg-8">Engagements</p>
+    </div>
+    <div class="task-bar">
+      <div class="task-sub-bar">
+        <div class="date">
+          <small class="orange">Jan 15, 2020</small>
+        </div>
+        <div class="total-task">
+          <small class="white">Total Task: 7</small>
+        </div>
+      </div>
+      <div class="total-task-detail">
+        <div class="task-list-view-details">
+          <span>Task-pending</span>
+          <div class="task-pending">
+            <span>7</span>
+          </div>
+        </div>
+        <div class="task-list-view-details">
+          <span>Task-completed</span>
+          <div class="task-completed">
+            <span>0</span>
+          </div>
+        </div>
+        <div class="task-circle">
+          <div class="task-circle-two">
+            <div class="circle-three">
+              <span>0%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ion-card>
+      <ion-card-header class="btn-card-header">
+        <ion-segment (ionChange)="segmentChanged($event)" [(ngModel)]="value">
+          <ion-segment-button class="segment-btn" checked value="Pending">
+            Pending
+          </ion-segment-button>
+          <ion-segment-button class="segment-btn" value="Completed">
+            Completed
+          </ion-segment-button>
+        </ion-segment>
+      </ion-card-header>
+    </ion-card>
+    <div class="engagement-container" *ngIf="value=='Pending'">
+    <ion-item class="card-area" (click)="imagePage()">
+      <ion-avatar slot="start">
+        <fa-icon class="icon-style" [icon]="faCamera"></fa-icon>
+      </ion-avatar>
+      <div class="engagement-status-container">
+        <p class="card-content">Share pictures of social distancing 
+          practiced at outlet & get 13 points!</p>
+          <div class="engagement-status">
+            <p class="date-txt">jun 11, 2020</p>
+            <div class="engagement-status-btn-container">
+            <p class="pending-btn">Pending</p>
+            <fa-icon class="file-icon-style file-cl-ic-2" [icon]="faCoins"></fa-icon>
+          </div>
+          </div>
+      </div>
+    </ion-item>
+    <ion-item class="card-area-2">
+      <ion-avatar slot="start">
+        <fa-icon class="icon-style-2" [icon]="faCamera"></fa-icon>
+      </ion-avatar>
+      <div class="engagement-status-container-2">
+        <p class="card-content-2">Share pictures of social distancing 
+          practiced at outlet & get 13 points!</p>
+          <div class="engagement-status-2">
+            <p class="date-txt-2">jun 11, 2020</p>
+            <div class="engagement-status-btn-container-2">
+            <p class="pending-btn-2">Verification Pending</p>
+            <fa-icon class="file-icon-style file-cl-ic-2-2" [icon]="faCoins"></fa-icon>
+          </div>
+          </div>
+      </div>
+    </ion-item>
+    <ion-item class="card-area">
+      <ion-avatar slot="start">
+        <fa-icon class="icon-style" [icon]="faComment"></fa-icon>
+      </ion-avatar>
+      <div class="engagement-status-container">
+        <p class="card-content">Share pictures of social distancing 
+          practiced at outlet & get 13 points!</p>
+          <div class="engagement-status">
+            <p class="date-txt">jun 11, 2020</p>
+            <div class="engagement-status-btn-container">
+            <p class="pending-btn">Pending</p>
+            <fa-icon class="file-icon-style file-cl-ic-2" [icon]="faCoins"></fa-icon>
+          </div>
+          </div>
+      </div>
+    </ion-item>
+  </div>
+  <div class="engagement-container-2" *ngIf="value=='Completed'">
+  <ion-item class="card-area">
+    <ion-avatar slot="start">
+      <fa-icon class="icon-style" [icon]="faCamera"></fa-icon>
+    </ion-avatar>
+    <div class="engagement-status-container">
+      <p class="card-content">Share pictures of social distancing 
+        practiced at outlet & get 13 points!</p>
+        <div class="engagement-status">
+          <p class="date-txt">jun 11, 2020</p>
+          <div class="engagement-status-btn-container">
+          <p class="completed-btn">Completed</p>
+          <fa-icon class="file-icon-style file-cl-ic-2" [icon]="faCoins"></fa-icon>
+        </div>
+        </div>
+    </div>
+  </ion-item>
+  </div>
+  </div>
+</ion-content>

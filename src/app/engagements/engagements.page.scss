@@ -1,0 +1,274 @@
+.myview{
+    background-size: 100% 100%;
+    --background: #181B2C;
+  }
+    .full-page{
+        display: flex;
+        height: 100%;
+        padding: 5% 3% 2% 3%;
+        flex-direction: column;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .header-txt{
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold; 
+      }
+      .mg-8{
+        margin-left: 8%;
+      }
+      .ft-s{
+          font-size: 19px;
+      }
+
+      .task-bar{
+          display: flex;
+          flex-direction: column;
+          background-color: #565863;
+          height: 18%;
+          padding: 2% 3% 0% 3%;
+      }
+      .task-sub-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 6%;
+        padding-bottom: 3%;
+      }
+
+      .date{
+          display: flex;
+          justify-content: space-between;
+      }
+
+      .orange{
+          color: #FF6B00;
+          font-size: 14px;
+      }
+      .white{
+          color: #F4F8FB;
+          font-size: 12px;
+      }
+      .total-task-detail{
+        display: flex;
+        flex-direction: row;
+        height: 75%;
+        width: 100%;
+        color: #fff;
+      }
+      .task-list-view-details{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .task-details{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 100%;
+      }
+      .task-pending{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        width: 35%;
+        height: 35%;
+        background-color: #FFFFFF;
+        font-size: 20px; 
+        border-radius: 8px;
+        color: #333333;
+      }
+      .task-completed{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        width: 35%;
+        height: 35%;
+        background-color: #F80909;
+        font-size: 20px;  
+        border-radius: 8px;
+      }
+      .task-circle{
+        width: 30%;
+        border: 2px solid #fff;
+        border-radius: 50%;
+       /*  height: 100%; */
+        align-items: center;
+        background-color: #00000029;;
+        justify-content: center;
+        display: flex;
+      }
+      .task-circle-two{
+        display: flex;
+        width: 79%;
+        border: 2px solid #ffff;
+        border-radius: 50%;
+        height: 79%;
+        background-color: #fff;
+        align-items: center;
+        justify-content: center;
+      }
+    .circle-three{
+      width: 69%;
+      border: 2px solid #ffff;
+      border-radius: 50%;
+      height: 69%;
+      background-color: #0000000F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #D6001B;
+      font-size: 24px;
+    }
+
+    .btn-card-header{
+      --background:#000000;
+    }
+  .segment-btn{
+    --color-checked:#F47920;
+    --color:#F47920;
+    &::part(indicator-background){
+      --border-radius:12px;
+      background: #F47920;
+    }
+    &:part(indicator){
+      border-radius: 14px;
+    }
+  }
+  .card-area{
+    --background: #0000001A;
+    color: #F4F8FB;
+    box-shadow: 0px 2px 5px #0000001A;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+.icon-style{
+  font-size: 40px;
+  color: #F9B401;
+}
+.card-content{
+  font-size: 12px;
+  color: #F4F8FB;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.pending-btn{
+  border: 2px solid #F47920;
+  background: #F47920;
+  border-radius: 12px;
+  width: 65%;
+  text-align: center;
+  margin: 0px;
+  margin-right: 6%;
+}
+.engagement-status-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.engagement-status{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.engagement-status-btn-container{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2%;
+}
+.file-icon-style{
+  font-size: 25px;   
+}
+.file-cl-ic-2{
+color: #F47920;
+padding-right: 2%;
+}
+.date-txt{
+  margin: 0px;
+  padding-top: 3%;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+.card-area-2{
+  --background: #000000;;
+  color: #F4F8FB;
+  box-shadow: 0px 2px 5px #0000001A;
+  padding-top: 2%;
+}
+.icon-style-2{
+font-size: 40px;
+color: #F9B401;
+}
+.card-content-2{
+font-size: 12px;
+color: #F4F8FB;
+margin-bottom: 0px;
+margin-top: 5px;
+}
+.pending-btn-2{
+border: 2px solid #F9B401;
+background: #F9B401;
+border-radius: 12px;
+width: 88%;
+text-align: center;
+margin: 0px;
+
+}
+.engagement-status-container-2{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.engagement-status-2{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-between;
+}
+.engagement-status-btn-container-2{
+display: flex;
+flex-direction: row;
+width: 67%;
+justify-content: space-around;
+align-items: center;
+padding-top: 2%;
+}
+.file-icon-style-2{
+font-size: 25px;   
+}
+.file-cl-ic-2-2{
+color: #F47920;
+padding-right: 2%;
+padding-left: 4%;
+}
+.date-txt-2{
+  margin: 0px;
+  padding-top: 3%;
+  text-align: center;
+  font-size: 12px;
+}
+.completed-btn{
+  border: 2px solid #06B100;
+  background: #06B100;
+  border-radius: 12px;
+  width: 88%;
+  text-align: center;
+  margin: 0px;
+  margin-right: 6%;
+  }

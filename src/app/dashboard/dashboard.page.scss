@@ -1,0 +1,121 @@
+.myview{
+    background-size: 100% 100%;
+    --background: #181B2C;
+  }
+  .full-page{
+    display: flex;
+    height: 100%;
+    padding: 5% 3% 2% 3%;
+    flex-direction: column;
+  }
+  .header{
+      display: flex;
+      height: 10%;
+      padding: 4% 2% 0% 2%;
+  }
+  .header-txt{
+      color: #ffff;
+      font-size: 12px;
+  }
+  .header-nb{
+    color:#F9B401;
+    font-size: 17px;
+    padding: 0% 0% 0% 4%;
+}
+  .header-container{
+      width: 100%;
+  }
+  .over-flow{
+      height: 90%;
+      overflow: scroll;
+  }
+  .img-container{
+      padding: 2% 0% 3% 0%;
+  }
+  .icon-style{
+      font-size: 25px;   
+  }
+  .cl-ic-1{
+   color: #F47920;
+   padding: 0% 8% 0% 5%;
+  }
+  .cl-ic-2{
+    color: #F9B401;
+   }
+  .txt-area{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 5% 5%;
+      height: 10%;
+  }
+  .date-txt{
+    font-size: 12px;
+    color: #F47920;
+  }
+  .card-area{
+      display: flex;
+      height: 20%;
+      flex-direction: column;
+      border: 1px solid #F47920;
+      border-radius: 8px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .card-point{
+      color: #Ffff;
+      font-size: 12px;
+  }
+  .card-nb{
+    font-size: 12px;
+    text-align: center;
+    color: #F47920;
+  }
+  .card-pt-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .file-uploader{
+      display: flex;
+      height: 15%;
+      border: 1px solid #F47920;
+      border-radius: 8px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      }
+      .file-txt{
+          color: #A1A2A8;
+          text-align: center;
+      }
+      .file-icon-style{
+        font-size: 25px;   
+    }
+    .file-cl-ic-2{
+     color: #F47920;
+     padding-right: 2%;
+    }
+    .space-bar{
+        height: 2%;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: row;
+        height: 15%;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+    .offer{
+      display: flex;
+      width: 48%;
+      border: 1px solid #F47920;
+      border-radius: 8px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    

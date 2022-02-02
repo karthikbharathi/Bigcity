@@ -1,0 +1,63 @@
+.myview{
+    background-size: 100% 100%;
+    --background: #181B2C;
+  }
+    .full-page{
+        display: flex;
+        height: 100%;
+        padding: 5% 3% 2% 3%;
+        flex-direction: column;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .header-txt{
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold; 
+      }
+      .mg-8{
+        margin-left: 8%;
+      }
+      .ft-s{
+          font-size: 19px;
+      }
+      .image-txt-area{
+          color: #fff;
+          font-size: 18px;
+          text-align: center;
+          margin-bottom: 0px;
+      }
+      .offer{
+        display: flex;
+        width: 100%;
+        /* border: 1px solid #F47920; */
+        border-radius: 8px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+        padding-top: 2%;
+      }
+      .file-cl-ic-2{
+        color: #F47920;
+        padding-right: 2%;
+       }
+       .file-txt{
+        color: #F47920;
+        text-align: center;
+        margin: 0px;
+    }
+    .image-card{
+        height: 28%;
+    }
+    .image-card-container{
+        height: 100%;
+    }
+    .image-card-sub-container{
+        height: 100%;
+        border-radius: 16px;
+    }
